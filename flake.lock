@@ -1,0 +1,90 @@
+{
+  "nodes": {
+    "asyncdocker-master": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "src-asyncdocker-master": "src-asyncdocker-master"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1658201249,
+        "narHash": "sha256-kXQsAfrCuojlTPrDo1IwgT9gzttOvW/HacVdsV5694I=",
+        "owner": "nim-nix-pkgs",
+        "repo": "asyncdocker",
+        "rev": "683945b3b3aad42ee411a73ed97e78b8b341ac91",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "asyncdocker",
+        "type": "github"
+      }
+    },
+    "flakeNimbleLib": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1648105061,
+        "narHash": "sha256-Je25qNlH4xrH3+m6vIq6yPvdfQ80FRTwX4JOhrRLduc=",
+        "owner": "riinr",
+        "repo": "nim-flakes-lib",
+        "rev": "f1ec5e2f15b9f717c33b6942ce7cb344ff868522",
+        "type": "github"
+      },
+      "original": {
+        "owner": "riinr",
+        "ref": "master",
+        "repo": "nim-flakes-lib",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 0,
+        "narHash": "sha256-BBeCZwZImtjP3oYy4WogkQYy5OxNyfNciVSc1AfZgLQ=",
+        "path": "/nix/store/z8fi1f38y14lmsyhnph1l98qr3r9x7wr-source",
+        "type": "path"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "asyncdocker-master": "asyncdocker-master",
+        "flakeNimbleLib": "flakeNimbleLib",
+        "nixpkgs": "nixpkgs"
+      }
+    },
+    "src-asyncdocker-master": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1466738680,
+        "narHash": "sha256-xKOuiCyQm8odr9aT9ZchJE7i4+o8p2Mm36VpEYTfaYY=",
+        "owner": "tulayang",
+        "repo": "asyncdocker",
+        "rev": "36343818e2103ed3e73b9a872cb831886b269888",
+        "type": "github"
+      },
+      "original": {
+        "owner": "tulayang",
+        "ref": "refs/heads/master",
+        "repo": "asyncdocker",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
