@@ -12,11 +12,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1668748656,
-        "narHash": "sha256-z64/ZdDGl4rC7OMu1i3ryWJEzU4+pkYW7KXjs7lR7hs=",
+        "lastModified": 1668754435,
+        "narHash": "sha256-E8AC57fcF7shWUuO3IShkfHsSpZowC75bQqMvRfsCeQ=",
         "owner": "nim-nix-pkgs",
         "repo": "asyncdocker",
-        "rev": "b0a8f30a17fdb024bd7f25ea23e6fbf329c93188",
+        "rev": "4bd931efedf585301f97484907a4df09fdbfc90c",
         "type": "github"
       },
       "original": {
